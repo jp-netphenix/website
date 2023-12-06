@@ -77,6 +77,10 @@ with st.container():
         st.markdown(address, unsafe_allow_html=True)
         st.write('##')
 
-        text = "info@netphenix.com +91 99404 47420"
+        text = "info@netphenix.com"
+        mail = f'<h6> <div style="text-align: center;">{text}</div></h6>'
+        st.markdown(mail, unsafe_allow_html=True)
+
+        text = "Phone: +91 99404 47420"
         mail = f'<h6> <div style="text-align: center;">{text}</div></h6>'
         st.markdown(mail, unsafe_allow_html=True)

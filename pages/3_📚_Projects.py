@@ -176,7 +176,7 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Lead Management Analytics")
-        st.image("images/projects/digital_media_1.png")
+        st.image("images/projects/digital_media_2.png")
     with col_2:
         st.title('')
         st.title('')

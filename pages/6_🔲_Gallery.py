@@ -33,7 +33,7 @@ with st.container():
     with col_1:
         st.image("images/gallery/shanker_wedding.JPG")
     with col_2:
-        text = "Shanker Wedding at Nithravalai"
+        text = "Shanker Wedding at Nithiravilai"
         st.write(text)
         st.write("14 May, 2023")
     st.write("---")
@@ -43,17 +43,20 @@ with st.container():
     with col_1:
         st.image("images/gallery/santhosh_wedding.png")
     with col_2:
-        text = "Santhosh Wedding at Nithravalai"
+        text = "Santhosh Wedding at Nithiravilai"
         st.write(text)
         st.write("29 Aug, 2022")
     st.write("---")
 
 
 with st.container():
-    col_1, col_2 = st.columns((5, 1))
+    col_1, col_2, col_3 = st.columns((1.5, 2.4, 1))
     with col_1:
-        st.image("images/gallery/outing_1.jpg")
+        st.image("images/gallery/outing_3.jpg")
     with col_2:
+        st.image("images/gallery/outing_2.jpg")
+
+    with col_3:
         text = "Outing"
         st.write(text)
         st.write("28 Jan, 2023")

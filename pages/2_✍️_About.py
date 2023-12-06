@@ -49,7 +49,7 @@ with st.container():
     st.markdown(title, unsafe_allow_html=True)
     st.write("Our operational foundation is built on three core principles:")
     st.write("- Timely Delivery")
-    st.write("- Timely Delivery")
+    st.write("- Client Satisfaction")
     st.write("- Affordable Rates")
     st.write("#")
 

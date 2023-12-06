@@ -131,7 +131,10 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Digital Media Analytics")
+        st.image("images/projects/digital_media_1.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -173,7 +176,10 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Lead Management Analytics")
+        st.image("images/projects/digital_media_1.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -214,7 +220,11 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## F-F Battery Monitoring")
+        st.image("images/projects/battery_1.png")
+        st.image("images/projects/battery_2.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -255,7 +265,10 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Warehouse Battery Tracking")
+        st.image("images/projects/warehouse.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -297,7 +310,11 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Connected Vehicle")
+        st.image("images/projects/connected_vehicle_1.png")
+        st.image("images/projects/connected_vehicle_2.png", width=300)
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)

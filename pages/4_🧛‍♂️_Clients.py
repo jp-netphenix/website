@@ -96,7 +96,7 @@ with st.container():
 with st.container():
     col_1, col_2 = st.columns((1, 2))
     with col_1:
-        st.image("images/myrmc_logo.webp", width=150)
+        st.image("images/myrmc_logo.png", width=150)
     with col_2:
         st.write("MyRMC is a one stop solution for booking and hiring Transit mixer, Pump and Gang and Boom Plazer in one touch.")
 

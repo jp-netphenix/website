@@ -357,83 +357,11 @@ with st.container():
 with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
-        st.markdown("## Corrosion Control System")
-    with col_2:
-        text = "Challenges"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - Controlling corrosion in a ship is a manual process
-            """
-        )
-
-        text = "Solution"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - We Build a hardware agent, which via IoT enables communication with ANodes
-            - Data gets collected from agents into the IoT platform
-            - Auto control of Current and Voltage
-            """
-        )
-
-        text = "Value Addition to the customer"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - Inference on cumulative damage sustained (retrospective) and the prevailing corrosion rate (real time and continuous)
-            - Current status of the ANode
-            - Alarm notification on threshold limits
-            """
-        )
-    st.write("---")
-
-with st.container():
-    col_1, col_2 = st.columns((2, 2))
-    with col_1:
-        st.markdown("## Robots In Special Education")
-    with col_2:
-        text = "Challenges"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - Training children with Autism
-            - Monitoring children's activity for further improvements
-            """
-        )
-
-        text = "Solution"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - Control/managing the robots
-            - Measuring the performance of child for all activities 
-            - Feedback mechanism
-            """
-        )
-
-        text = "Value Addition to the customer"
-        chn_office = f'<h5> <div>{text}</div></h5>'
-        st.markdown(chn_office, unsafe_allow_html=True)
-        st.write(
-            """
-            - Easy training
-            - Automatic measuring of skills  
-            - Increase the training efficiency
-            """
-        )
-    st.write("---")
-
-with st.container():
-    col_1, col_2 = st.columns((2, 2))
-    with col_1:
         st.markdown("## Network Trouble Ticketing")
+        st.image("images/projects/ntt.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -476,8 +404,51 @@ with st.container():
 with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
-        st.markdown("## Capturing Remote Desktop")
+        st.markdown("## Corrosion Control System")
+        st.image("images/projects/ccs_1.png")
     with col_2:
+        st.title('')
+        st.title('')
+        text = "Challenges"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - Controlling corrosion in a ship is a manual process
+            """
+        )
+
+        text = "Solution"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - We Build a hardware agent, which via IoT enables communication with ANodes
+            - Data gets collected from agents into the IoT platform
+            - Auto control of Current and Voltage
+            """
+        )
+
+        text = "Value Addition to the customer"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - Inference on cumulative damage sustained (retrospective) and the prevailing corrosion rate (real time and continuous)
+            - Current status of the ANode
+            - Alarm notification on threshold limits
+            """
+        )
+    st.write("---")
+
+with st.container():
+    col_1, col_2 = st.columns((2, 2))
+    with col_1:
+        st.markdown("## Capturing Remote Desktop")
+        st.image("images/projects/remote_desktop.png")
+    with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -515,7 +486,11 @@ with st.container():
     col_1, col_2 = st.columns((2, 2))
     with col_1:
         st.markdown("## Text Mining - Pharma")
+        st.image("images/projects/text_mining.png")
+        st.image("images/projects/text_mining_2.png")
     with col_2:
+        st.title('')
+        st.title('')
         text = "Challenges"
         chn_office = f'<h5> <div>{text}</div></h5>'
         st.markdown(chn_office, unsafe_allow_html=True)
@@ -548,6 +523,47 @@ with st.container():
         st.write(
             """
             - To be added
+            """
+        )
+    st.write("---")
+
+with st.container():
+    col_1, col_2 = st.columns((2, 2))
+    with col_1:
+        st.markdown("## Robots In Special Education")
+        st.image("images/projects/nimaya_1.png")
+    with col_2:
+        st.title('')
+        st.title('')
+        text = "Challenges"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - Training children with Autism
+            - Monitoring children's activity for further improvements
+            """
+        )
+
+        text = "Solution"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - Control/managing the robots
+            - Measuring the performance of child for all activities 
+            - Feedback mechanism
+            """
+        )
+
+        text = "Value Addition to the customer"
+        chn_office = f'<h5> <div>{text}</div></h5>'
+        st.markdown(chn_office, unsafe_allow_html=True)
+        st.write(
+            """
+            - Easy training
+            - Automatic measuring of skills  
+            - Increase the training efficiency
             """
         )
     st.write("---")

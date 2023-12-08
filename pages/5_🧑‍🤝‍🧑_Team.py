@@ -151,7 +151,7 @@ with st.container():
 with st.container():
     col_1, col_2, col_3, col_4, col_5 = st.columns((1, 1, 1, 1, 1))
 
-    with col_1:
+    with col_2:
         st.image("images/staff/Bibino.jpg")
         text = "Bibino"
         title = f"<h6><div style='text-align: center;'>{text}</div></h6>"
@@ -159,7 +159,7 @@ with st.container():
         text = "Software Engineer"
         title = f"<h6><div style='text-align: center;'>{text}</div></h6>"
         st.markdown(title, unsafe_allow_html=True)
-    with col_2:
+    with col_3:
         st.image("images/staff/Abish.jpg")
         text = "Abish"
         title = f"<h6><div style='text-align: center;'>{text}</div></h6>"
@@ -167,7 +167,7 @@ with st.container():
         text = "QA Engineer"
         title = f"<h6><div style='text-align: center;'>{text}</div></h6>"
         st.markdown(title, unsafe_allow_html=True)
-    with col_3:
+    with col_4:
         st.image("images/staff/SaiKrishna.jpg")
         text = "Saikrishna"
         title = f"<h6><div style='text-align: center;'>{text}</div></h6>"
